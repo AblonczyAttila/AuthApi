@@ -15,6 +15,9 @@ namespace AuthApi
 
             builder.Services.AddScoped<IAuth, AuthService>();
 
+            builder.Services.AddScoped<ITokenGenerator, TokenGenerator>();
+
+            builder.Services.Configure<JwtOption>(builder.Configuration.GetSection("AuthSettings:JwhOptions"));
             // Add services to the container.
 
             builder.Services.AddControllers();

@@ -2,6 +2,7 @@
 using AuthApi.Services.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace AuthApi.Controllers
 {
@@ -24,7 +25,13 @@ namespace AuthApi.Controllers
         [HttpPost("register")]
         public async Task<ActionResult> RegisterPost(RegisterRequestDto registerRequestDto)
         {
-            return Ok();
-        }
+            var result = await auth.Register(registerRequestDto);
+
+            if (result == "")
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        } 
     }
 }

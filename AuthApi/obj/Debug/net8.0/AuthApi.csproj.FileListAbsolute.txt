@@ -141,3 +141,4 @@ C:\Users\Tanulo\Documents\pmgitworkdir\yurr\AuthApi\AuthApi\bin\Debug\net8.0\run
 C:\Users\Tanulo\Documents\pmgitworkdir\yurr\AuthApi\AuthApi\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
 C:\Users\Tanulo\Documents\pmgitworkdir\yurr\AuthApi\AuthApi\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
 C:\Users\Tanulo\Documents\pmgitworkdir\yurr\AuthApi\AuthApi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Tanulo\Documents\pmgitworkdir\yurr\AuthApi\AuthApi\obj\Debug\net8.0\AuthApi.sourcelink.json
