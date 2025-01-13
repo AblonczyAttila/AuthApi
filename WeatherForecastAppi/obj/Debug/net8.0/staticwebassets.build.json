@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nwvb/yUPab6dY0G1WN/KeGaMMBfRj7GOdibgFXdNZ90=",
+  "Source": "WeatherForecastAppi",
+  "BasePath": "_content/WeatherForecastAppi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
